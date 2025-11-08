@@ -7,12 +7,12 @@ public class Test2_ArraySort : MonoBehaviour
 {
     public void Start()
     {
-        int[] data = GenerateRandomArray(100);
+        int[] data = GenerateRandomArray(10);
         //StartSelectionSort(data);
-        //StartQuickSort(data, 0, data.Length - 1);
+        StartQuickSort(data, 0, data.Length - 1);
         foreach (var item in data)
         {
-            Debug.Log(item);
+            //Debug.Log(item);
         }
     }
 
@@ -22,7 +22,7 @@ public class Test2_ArraySort : MonoBehaviour
         System.Random rand = new System.Random();
         for (int i = 0; i < size; i++)
         {
-            arr[i] = rand.Next(0, 10000);
+            arr[i] = rand.Next(0, 10);
         }
         return arr;
     }
@@ -112,8 +112,9 @@ public class Test2_ArraySort : MonoBehaviour
         if (low < high)
         {
             int pivotIndex = Partition(arr, low, high);
-
+            //Debug.Log(pivotIndex);
             StartQuickSort(arr, low, pivotIndex - 1);
+            //Debug.Log(pivotIndex);
             StartQuickSort(arr, pivotIndex + 1, high);
         }
     }
