@@ -25,6 +25,22 @@ public class Test6_PriorityQueue<T>
         return rootItem;
     }
 
+    public T Peek()
+    {
+        if (heap.Count == 0)
+            throw new InvalidOperationException("Queue is empty");
+
+        return heap[0].item;
+    }
+
+    public bool Contains(T item)
+    {
+        foreach (var h in heap)
+            if(h.Equals(item)) return true;
+
+        return false;
+    }
+
     private void HeapifyUp(int i)
     {
         while (i > 0)
