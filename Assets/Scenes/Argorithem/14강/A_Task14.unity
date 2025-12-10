@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 89389349}
   - component: {fileID: 89389348}
   m_Layer: 5
-  m_Name: Button (Legacy) (3)
+  m_Name: ExpBigButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 116662736}
   - component: {fileID: 116662735}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: ExpEff_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 230132533}
   - component: {fileID: 230132532}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: EnforceWeaponCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: +1 -> +2
+  m_Text: +1  -> +2
 --- !u!222 &749194984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 1134855813}
   - component: {fileID: 1134855814}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: ExpSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 1215213374}
   - component: {fileID: 1215213373}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: 'Brute Force_Button '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1368,7 +1368,7 @@ GameObject:
   - component: {fileID: 1366680177}
   - component: {fileID: 1366680176}
   m_Layer: 5
-  m_Name: InfoText
+  m_Name: InfoTextUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1524,7 +1524,7 @@ GameObject:
   - component: {fileID: 1407745433}
   - component: {fileID: 1407745432}
   m_Layer: 5
-  m_Name: Button (Legacy) (2)
+  m_Name: GoldEffButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2310,7 +2310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
